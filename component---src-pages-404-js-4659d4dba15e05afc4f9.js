@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{w2l6:function(n,e,t){"use strict";t.r(e),t.d(e,"default",(function(){return i}));var r=t("q1tI"),u=t.n(r);function i(){return u.a.createElement("h1",null,"Hey, this is the 404 error page...")}}}]);
+//# sourceMappingURL=component---src-pages-404-js-4659d4dba15e05afc4f9.js.map
