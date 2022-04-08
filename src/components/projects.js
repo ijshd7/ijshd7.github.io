@@ -6,12 +6,12 @@ import floating1 from '../images/floatingstl1.png';
 import floatingLogo from '../images/float-logo-teal.png';
 import dogwood1 from '../images/dogwood1.png';
 import dogwoodLogo from '../images/dogwood-advisors-vertical-logo.png';
-import rise1 from '../images/riseCarousel3.png';
+import rise1 from '../images/risecarousel3.png';
 import riseLogo from '../images/rise-logo-white.png';
 import coach1 from '../images/mycoachkevin1.png';
 import coachLogo from '../images/logo.png';
 import movet1 from '../images/movetiphone.png';
-import movetLogo from '../images/movetLogoWithIcon.png'
+import movetLogo from '../images/movetlogowithicon.png'
 
 const ProjectModal = ({ contributions, technologies }) => {
     const [showProject, setShowProject] = useState(false);
