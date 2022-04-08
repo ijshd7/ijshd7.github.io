@@ -38,10 +38,10 @@ const ProjectModal = ({ contributions, technologies }) => {
 
 const Projects = () => (
     <section className="h-auto w-full flex flex-col bg-gray-900 font-serif">
-        <div className="text-center mt-8 lg:hidden">
+        <nav className="text-center mt-8 lg:hidden">
             <Link to="/" className="underline text-center text-white hover:text-green-400 transition-all duration-300 ease-linear lg:hidden">Home</Link>
-        </div>
-        <div className="hidden lg:inline-flex space-x-20 pt-8 mx-8">
+        </nav>
+        <nav className="hidden lg:inline-flex space-x-20 pt-8 mx-8">
             <div className="flex-1 group">
             <hr className="border-gray-400 group-hover:border-green-400 transition-all duration-300 ease-linear"/>
             <Link to="/" className="text-white hover:text-green-300 transition-all duration-300 ease-linear">Home</Link>
@@ -50,9 +50,11 @@ const Projects = () => (
             <hr className="border-gray-400 group-hover:border-green-400 transition-all duration-300 ease-linear"/>
             <Link to="/contact/" className="text-white hover:text-green-300 transition-all duration-300 ease-linear">Contact</Link>
             </div>
-        </div>
-        <div className="mt-6 text-center text-white font-mono antialiased">
-            <h1 className="mx-auto mt-4 pb-4 text-3xl underline">PROFESSIONAL PROJECTS</h1>
+        </nav>
+        <main className="mt-6 text-center text-white font-mono antialiased">
+            <header>
+                <h1 className="mx-auto mt-4 pb-4 text-3xl underline">PROFESSIONAL PROJECTS</h1>
+            </header>
             <div className="flex-col lg:flex lg:flex-row mt-4 mb-4">
                 <div className="w-2/3 mb-6 lg:w-1/4 mx-auto">
                     <div className="relative">
@@ -117,7 +119,7 @@ const Projects = () => (
                     </a>
                 </div>
             </div>
-        </div>
+        </main>
     </section>
 )
 
