@@ -23,6 +23,7 @@
     "gatsby-plugin-styled-components": "^5.11.0",
     "gatsby-plugin-tailwindcss": "^1.0.3",
     "gatsby-source-filesystem": "^4.11.1",
+    "gatsby-transformer-remark": "^5.12.1",
     "gatsby-transformer-sharp": "^4.11.0",
     "postcss": "^8.4.12",
     "prop-types": "^15.8.1",
@@ -44,7 +45,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby clean && gatsby build",
-    "develop": "gatsby develop",
+    "dev": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby build && gatsby serve",
